@@ -258,7 +258,7 @@ input:checked + .slider::before {
   border-radius: 50%;
 }
 
-.fa-sun.dark-switch {
+.fa-sun.dark-switch, .fa-moon.dark-switch {
   font-size: 30px !important;
   margin-right: 5px;
   color: var(--on-background);
@@ -268,6 +268,9 @@ input:checked + .slider::before {
 
 @media screen and (max-width: 1024px) {
 
+nav {
+  padding: 25px 25px 15px;
+}
   nav a {
     text-align: center;
   }
@@ -277,13 +280,13 @@ input:checked + .slider::before {
   }
 
   .theme-switch-wrapper {
-    top: 70px;
+    top: 90px;
   }
 
   .about-container {
-      flex-direction: column;
-      align-items: stretch;
-      width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
   }
 
   .image-container {
@@ -304,5 +307,4 @@ input:checked + .slider::before {
   .fa-solid:first-of-type {
     margin-left: 30px;
   }
-  
 }
